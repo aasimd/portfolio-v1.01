@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;600&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0%;
+    padding-top: 0%;
+    padding: 0%;
+    font-size: 200%;
+    
+}
+
+:root{
+    --primary-color: #06b6d4;
+    --offwhite: #ecfeff;
+    --gray : #4b5563;
+}
+li {
+    display: inherit;
+    text-align: inherit;
+}
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+/**navigation**/
+.nav{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.nav h2 {
+    margin-top: 0%;
+    color: white;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.non-bullet{
+    list-style: none;
+    color: white;
+}
+
+.active-link{
+    font-weight: bold;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 2rem;
+    padding-left: 0%;
+    font-size: 2.2rem;
+    
+}
+.nav ul{
+    text-align: right;
+}
+
+/**header**/
+
+
+
+img.hero {
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+    padding-top: 5rem;
+    
+}
+h1.name{
+    color: var(--gray);
+    text-align: center;
+    padding: 2rem 2rem 5rem 2rem;
+    font-size: 3rem;
+}
+.highlight{
+    color: var(--primary-color);
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.container{
+    margin: auto;
+    max-width: 800px;
+}
+
+h2{
+    text-align: center;
+}
+
+/**sections**/
+.ow{
+    background-color: var(--offwhite);
+    padding: 0.5rem 2rem 2.5rem 2rem;
+}
+.white{
+    padding: 0.5rem 2rem 2.5rem 2rem;
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.primary-button{
+    color: white;
+    background-color: var(--primary-color);
+    margin: 2rem;
+    border-radius: 10px;
+    max-width: fit-content;
+    font-weight: 400;
+}
+.secondary-button{
+    color: var(--primary-color);
+    margin: 2rem;
+    border-radius: 10px;
+    border: var(--primary-color) 1px solid;
+    max-width: fit-content;
+    font-weight: 400;
+    padding:0 1rem 0 1rem;
+
+}
+
+
+p.container{
+    margin-bottom: 2rem;
+}
+
+li.secondary-button{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    border-top-right-radius: 2rem;
+}
+h2#social{
+    margin-top: 0%;
+    padding-top: 2.5rem;
+    margin-bottom: 2rem;
+    
+}
+.footer-content{
+    text-align: center;
+    padding: 0 1rem 3rem 1rem;
+}
+.socials-footer{
+    padding: 1rem;
+}
