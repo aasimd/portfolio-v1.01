@@ -93,13 +93,18 @@ h1 {
     max-width: 800px;
 }
 
-h2{
+html h2{
     text-align: center;
 }
 
 /**sections**/
 .ow{
     background-color: var(--offwhite);
+    padding: 0.5rem 2rem 2.5rem 2rem;
+}
+
+.w{
+    background-color: white;
     padding: 0.5rem 2rem 2.5rem 2rem;
 }
 .white{
@@ -118,6 +123,7 @@ h2{
     border-radius: 10px;
     max-width: fit-content;
     font-weight: 400;
+    padding:0 1rem 0 1rem
 }
 .secondary-button{
     color: var(--primary-color);
@@ -138,11 +144,12 @@ p.container{
 li.secondary-button{
     text-align: center;
 }
-
+/**footer**/
 footer{
     background-color: var(--primary-color);
     color: white;
     border-top-right-radius: 2rem;
+    bottom: 0%;
 }
 h2#social{
     margin-top: 0%;
@@ -156,4 +163,28 @@ h2#social{
 }
 .socials-footer{
     padding: 1rem;
+}
+
+/**blogs**/
+
+
+
+
+
+/**projects**/
+#seeCode{
+    text-align: left;
+    padding-left: 4rem;
+    color: var(--gray);
+}
+li {
+    display: inherit;
+    text-align: inherit;
+}
+
+li.primary-button.link2{
+    text-align: center;
+}
+.white-list{
+    text-align: center;
 }
