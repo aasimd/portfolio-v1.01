@@ -123,6 +123,7 @@ html h2{
     max-width: fit-content;
     font-weight: 250;
     padding:0.2rem 0.5rem 0.2rem 0.5rem;
+    margin: 2rem;
 }
 .secondary-button{
     color: var(--primary-color);
@@ -131,7 +132,7 @@ html h2{
     max-width: fit-content;
     font-weight: 250;
     padding:0.2rem 0.5rem 0.2rem 0.5rem;
-
+    margin: 2rem;
 }
 
 
@@ -181,4 +182,8 @@ li {
 
 .white-list{
     text-align: center;
+}
+
+.inline{
+    display: inline;
 }
