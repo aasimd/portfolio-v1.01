@@ -6,7 +6,7 @@ body{
     margin: 0%;
     padding-top: 0%;
     padding: 0%;
-    font-size: 150%;
+    font-size: 200%;
     
 }
 
@@ -119,20 +119,18 @@ html h2{
 .primary-button{
     color: white;
     background-color: var(--primary-color);
-    margin: 2rem;
     border-radius: 10px;
     max-width: fit-content;
     font-weight: 250;
-    padding:0 1rem 0 1rem
+    padding:0.2rem 0.5rem 0.2rem 0.5rem;
 }
 .secondary-button{
     color: var(--primary-color);
-    margin: 2rem;
     border-radius: 10px;
     border: var(--primary-color) 1px solid;
     max-width: fit-content;
     font-weight: 250;
-    padding:0 1rem 0 1rem;
+    padding:0.2rem 0.5rem 0.2rem 0.5rem;
 
 }
 
@@ -141,9 +139,7 @@ p.container{
     margin-bottom: 2rem;
 }
 
-li.secondary-button{
-    text-align: center;
-}
+
 /**footer**/
 footer{
     background-color: var(--primary-color);
@@ -182,9 +178,7 @@ li {
     text-align: inherit;
 }
 
-li.primary-button.link2{
-    text-align: center;
-}
+
 .white-list{
     text-align: center;
 }
