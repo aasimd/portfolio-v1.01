@@ -64,8 +64,7 @@ a:-webkit-any-link {
 
 img.hero {
     text-align: center;
-    margin: auto;
-    max-width: 700px;
+    max-width: 400px;
     padding-top: 5rem;
     
 }
@@ -88,7 +87,14 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+div.container3{
+    text-align: center;
+}
 .container{
+    margin: auto;
+    max-width: 800px;
+}
+.container2 {
     margin: auto;
     max-width: 800px;
 }
