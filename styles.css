@@ -49,9 +49,9 @@ a:-webkit-any-link {
 
 .nav ul li{
     display: inline;
-    padding: 2rem;
+    padding: 1rem;
     padding-left: 0%;
-    font-size: 1.6rem;
+    font-size: 2rem;
     
 }
 .nav ul{
@@ -178,8 +178,19 @@ h2#social{
 }
 /**blogs**/
 
+ul{
+    padding-inline-start: inherit;
+}
 
+#read-blogs{
+    text-align: left;
+    padding-left: 4rem;
+    color: var(--gray);
+}
 
+.footer-blogs{
+    position: sticky;
+}
 
 
 /**projects**/
