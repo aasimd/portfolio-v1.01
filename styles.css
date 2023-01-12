@@ -181,6 +181,9 @@ h2#social{
 
 ul{
     padding-inline-start: inherit;
+    
+    margin-block-start: 1em;
+    margin-block-end: 0em;
 }
 
 #read-blogs{
